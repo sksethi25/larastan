@@ -6,6 +6,29 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.3.18] - 2019-08-04
+### Added
+- Support to Laravel 6 ([2be403c](https://github.com/nunomaduro/larastan/commit/2be403c784d0f4b84449b1b4f91b5c6ace3585a1))
+
+## [0.3.17] - 2019-05-29
+### Fixes
+- Issue with PHPStan 0.11.8 because of MethodReflectionFactory signature change ([#270](https://github.com/nunomaduro/larastan/pull/270))
+
+## [0.3.16] - 2019-03-30
+### Added
+- Support to Lumen (Put commit here)
+
+### Fixes
+- Void return type on Models (Put commit here)
+
+## [0.3.15] - 2019-01-23
+### Added
+- Support to Laravel 5.8 ([0949fa5](https://github.com/nunomaduro/larastan/commit/0949fa59dea711c462c2d7a3a26b4a4a6cbafbf1))
+
+## [0.3.14] - 2019-01-22
+### Changed
+- Bumps PHPStan version to > 0.11.1 ([#229](https://github.com/nunomaduro/larastan/pull/229))
+
 ## [0.3.13] - 2018-12-21
 ### Added
 - Support to `trans` helper ([#220](https://github.com/nunomaduro/larastan/pull/220))
@@ -166,7 +189,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Adds first alpha version
 
-[Unreleased]: https://github.com/nunomaduro/larastan/compare/v0.3.11...HEAD
+[Unreleased]: https://github.com/nunomaduro/larastan/compare/v0.3.18...HEAD
+[0.3.18]: https://github.com/nunomaduro/larastan/compare/v0.3.17...v0.3.18
+[0.3.17]: https://github.com/nunomaduro/larastan/compare/v0.3.16...v0.3.17
+[0.3.16]: https://github.com/nunomaduro/larastan/compare/v0.3.15...v0.3.16
+[0.3.15]: https://github.com/nunomaduro/larastan/compare/v0.3.14...v0.3.15
+[0.3.14]: https://github.com/nunomaduro/larastan/compare/v0.3.13...v0.3.14
+[0.3.13]: https://github.com/nunomaduro/larastan/compare/v0.3.12...v0.3.13
+[0.3.12]: https://github.com/nunomaduro/larastan/compare/v0.3.11...v0.3.12
 [0.3.11]: https://github.com/nunomaduro/larastan/compare/v0.3.10...v0.3.11
 [0.3.10]: https://github.com/nunomaduro/larastan/compare/v0.3.9...v0.3.10
 [0.3.9]: https://github.com/nunomaduro/larastan/compare/v0.3.8...v0.3.9
